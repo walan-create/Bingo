@@ -169,7 +169,6 @@ public class Bingo {
                     do
                     {
                         int aleatorio = (int)(Math.random()*10 + (i*10));
-
                         esta = buscarValorRepetido(arrayBi[i], aleatorio);
 
                         if(!esta)
@@ -183,8 +182,6 @@ public class Bingo {
             arrayBi[i] = ordenar(arrayBi[i]); // Ordena cada columna despues de terminar de rellenarla
         }
     }
-
-
 
     /**
      * Marca los espacios en blanco con el valor -1
